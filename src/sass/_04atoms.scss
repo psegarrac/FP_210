@@ -1,0 +1,87 @@
+/* buttons */
+
+.btn-grey {
+  background-color: $gray-600;
+  color: $white;
+}
+
+.btn-rounded {
+  border-radius: 50px;
+}
+
+/* Avatar*/
+.a-avatar {
+  width: 50px;
+  height: 50px;
+  margin: 5px 0;
+  border-radius: 100px;
+  border: 1px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.3;
+  transition: opacity 0.5s ease-in-out;
+  cursor: move;
+
+  i {
+    font-size: 30px;
+    pointer-events: none;
+  }
+
+  &.mod1 {
+    color: #f24726;
+    background-color: #fcdad4;
+  }
+  &.mod2 {
+    color: #fef445;
+    background-color: #fffdda;
+  }
+  &.mod3 {
+    color: #8fd14f;
+    background-color: #e9f6dc;
+  }
+  &.mod4 {
+    color: #9510ac;
+    background-color: #eacfee;
+  }
+  &.mod5 {
+    color: #2d9bf0;
+    background-color: #d5ebfc;
+  }
+  &.mod6 {
+    color: #0ca789;
+    background-color: #ceede7;
+  }
+  &.mod7 {
+    color: #fac710;
+    background-color: #fef4cf;
+  }
+  &.mod8 {
+    color: #808080;
+    background-color: #e6e6e6;
+  }
+
+  &.active {
+    border-color: #333;
+    border-style: dashed;
+    opacity: 1;
+  }
+
+  &.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+.alert-full{
+    width: 100%;
+    height: 100%;
+}
+
+#roomMessageContent{
+  text-align: center;
+  table{
+    width: 260px;
+    margin: 10px auto;
+  }
+}
